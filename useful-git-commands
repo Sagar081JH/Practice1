@@ -1,0 +1,36 @@
+
+		--------------------Essential Git Commands -----------------------------
+
+git clone <repo ssh url or https>
+
+
+	run below 4 commands in sequence for successful file push :
+	
+			git status : checks status of directory
+
+			git add <file name> : add file to the commit
+
+			git commit -m "commit message"
+
+			git push origin master : pushes changes to git repo
+			
+
+git diff <file name> : shows recent change which are not commited
+
+pwd : presen working directory
+
+mkdir : make directory
+
+git commit -m "commit message"
+
+git branch -M main : creates branch with name "main"
+
+git push -u origin main : pushes commited changes to main branch
+
+git rm <file-name> : deletes file
+
+git rm <folder-name> -r : deletes folder
+
+git ls-files : shows files in repo
+
+git restore <file-name> : to discard changes in working directory
